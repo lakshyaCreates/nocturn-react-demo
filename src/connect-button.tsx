@@ -26,6 +26,7 @@ export function ConnectButton() {
       <button onClick={handleConnect}>
         {address ? `Connected: ${address}` : "Connect Wallet"}
       </button>
+      <br />
       {address && "Click the button above to disconnect"}
     </>
   );
